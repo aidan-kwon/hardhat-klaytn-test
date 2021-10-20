@@ -35,7 +35,7 @@ export default {
             // },
             hardfork: 'constantinople',
             forking: {
-                url: '' // cypress
+                url: 'http://3.35.20.102:8551' // cypress
             },
             // accounts: getNetworkAccount(),
             accounts: {
@@ -49,7 +49,7 @@ export default {
             gasPrice: 25000000000
         },
         cypress: {
-            url: '',
+            url: 'http://3.35.20.102:8551',
             networkId: 8217,
             accounts: getNetworkAccount(),
             // accounts: [require('./secrets.json').MYACCOUNT_PRIVATE_KEY],
